@@ -52,7 +52,6 @@ def get_pages(country, city, local_url):
 		else:
 			keep_looking = False
 		page_count = page_count + 1
-		keep_looking = False
 	return pages
 
 def parse_page_for_elements(page):
